@@ -8,3 +8,6 @@ local opts = { noremap = true, silent = true }
 -- Faster way to escpape in insert mode
 map("i", "kj", "<ESC>", opts)
 map("i", "jk", "<ESC>", opts)
+
+-- Off relative numbers
+vim.opt.relativenumber = false
